@@ -1,85 +1,122 @@
-/* Original Start Bootstrap's CSS */
+/* boardme*/
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Grayscale v7.0.5 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-:root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #7464a1;
-  --bs-pink: #d63384;
-  --bs-red: #a16468;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #e4c662;
-  --bs-green: #67c29c;
-  --bs-teal: #64a19d;
-  --bs-cyan: #1cabc4;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #64a19d;
-  --bs-secondary: #7464a1;
-  --bs-success: #67c29c;
-  --bs-info: #1cabc4;
-  --bs-warning: #e4c662;
-  --bs-danger: #a16468;
-  --bs-light: #f8f9fa;
-  --bs-dark: #ffffff;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-primary-rgb: 100, 161, 157;
-  --bs-secondary-rgb: 116, 100, 161;
-  --bs-success-rgb: 103, 194, 156;
-  --bs-info-rgb: 28, 171, 196;
-  --bs-warning-rgb: 228, 198, 98;
-  --bs-danger-rgb: 161, 100, 104;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: rgb(0, 0, 0);
+
+.containerboard{
+  position: center;
+  padding-left: 33%;
+  padding-right: auto;
+  padding
 }
 
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: #fff;
+}
+
+.video-maskyt {
+  border-radius: 30px;
+}
+
+  *,
+  *:before,
+  *:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .body1{
+    background-color: #5a6e62;
+    
+  }
+  .popup{
+    background-color: #f3fbff;
+    width: 420px;
+    padding: 30px 40px;
+    position: sticky;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 50px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+    z-index: 5;
+  }
+  .popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #5a6e62;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .popup h2{
+  margin-top: -20px;
+  }
+  .popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+  }
+  .button1{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #5a6e62;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+  }
+
+  .button1:hover{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #5a6e62;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+    scale:  105%;
+  }
+  
+  .c{
+    display: block;
+    width: 65%;
+    
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #5a6e62;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 0;
+  }
 
 
+/* Original Start Bootstrap's CSS */
 
 
 .container-iframe {  position: center;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%; 
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
+
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -8408,10 +8445,7 @@ body {
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-white {
-  --bs-bg-opacity: 1;
-  background-color: #fff;
-}
+
 
 .bg-body {
   --bs-bg-opacity: 1;
